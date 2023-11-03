@@ -102,7 +102,7 @@ metadata:
     app.kubernetes.io/instance: heimdall
 subsets:
   - addresses:
-      - ip: "192.168.1.25"
+      - ip: "192.168.1.116"
     ports:
       - name: heimdall
         port: 8180

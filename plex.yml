@@ -129,7 +129,7 @@ metadata:
     app.kubernetes.io/instance: plex
 subsets:
   - addresses:
-      - ip: "192.168.1.25"
+      - ip: "192.168.1.116"
     ports:
       - name: plex
         port: 32400

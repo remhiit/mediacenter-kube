@@ -122,7 +122,7 @@ metadata:
     app.kubernetes.io/instance: transmission
 subsets:
   - addresses:
-      - ip: "192.168.1.25"
+      - ip: "192.168.1.116"
     ports:
       - name: transmission
         port: 9091
