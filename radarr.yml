@@ -79,12 +79,12 @@ spec:
         - name: download-volume
           hostPath:
             # Ensure the file directory is created.
-            path: /mnt/tank/shares/download
+            path: /mnt/tank/share/download
             type: DirectoryOrCreate
         - name: movies-volume
           hostPath:
             # Ensure the file directory is created.
-            path: /mnt/tank/shares/video/film
+            path: /mnt/tank/share/video/film
             type: DirectoryOrCreate
 
 ---
