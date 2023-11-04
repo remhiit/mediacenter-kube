@@ -10,3 +10,4 @@ resources:
   - tautulli.yml
   - overseerr.yml
   - transmission.yml
+  - flaresolverr.yml

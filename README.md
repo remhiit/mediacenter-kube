@@ -17,6 +17,7 @@
 | Home Assistant   | 1011 |
 | Oveseerr         | 1012 |
 | Homarr           | 1012 |
+| Flaresolverr     | 1013 |
 
 ## The port used by each app installed
 
@@ -40,3 +41,5 @@
 | 10001 | Unifi Controller (UDP)      |
 | 25565 | MineOS (TCP/UDP)            |
 | 51413 | Transmission (TCP/UDP)      |
+| 51413 | Transmission (TCP/UDP)      |
+| 8191  | Flaresolverr                |
