@@ -37,7 +37,7 @@ spec:
       dnsPolicy: ClusterFirstWithHostNet
       containers:
         - name: flaresolverr-app
-          image: ghcr.io/flaresolverr/flaresolverr:v3.3.6
+          image: ghcr.io/flaresolverr/flaresolverr:v3.3.7
           imagePullPolicy: Always
           livenessProbe:
             httpGet:
@@ -100,7 +100,7 @@ metadata:
     app.kubernetes.io/instance: flaresolverr
 subsets:
   - addresses:
-      - ip: "192.168.1.116"
+      - ip: 192.168.1.116
     ports:
       - name: flaresolverr
         port: 8191

@@ -39,7 +39,7 @@ spec:
             dnsPolicy: ClusterFirstWithHostNet
             containers:
                 - name: prowlarr-app
-                  image: linuxserver/prowlarr:develop
+                  image: linuxserver/prowlarr:1.9.4.4039-ls38
                   imagePullPolicy: Always
                   livenessProbe:
                       httpGet:
@@ -102,7 +102,7 @@ metadata:
         app.kubernetes.io/instance: prowlarr
 subsets:
     - addresses:
-          - ip: "192.168.1.116"
+          - ip: 192.168.1.116
       ports:
           - name: prowlarr
             port: 9696
