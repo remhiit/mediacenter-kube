@@ -39,7 +39,7 @@ spec:
       dnsPolicy: ClusterFirstWithHostNet
       containers:
         - name: radarr-app
-          image: linuxserver/radarr:develop
+          image: linuxserver/radarr:5.1.3.8246-ls193
           imagePullPolicy: Always
           livenessProbe:
             httpGet:
