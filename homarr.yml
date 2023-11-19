@@ -39,7 +39,7 @@ spec:
       dnsPolicy: ClusterFirstWithHostNet
       containers:
         - name: homarr-app
-          image: ghcr.io/ajnart/homarr:v0.14.0
+          image: ghcr.io/ajnart/homarr:0.14.0
           imagePullPolicy: Always
           livenessProbe:
             httpGet:
