@@ -1,0 +1,9 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: mimz.fr
+spec:
+  secretName: mimz-tls
+  issuerRef:
+    name: letsencrypt
+  commonName: mimz.fr
