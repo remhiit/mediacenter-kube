@@ -82,7 +82,7 @@ spec:
         - name: videos-volume
           hostPath:
             # Ensure the file directory is created.
-            path: /mnt/tank2/shares/videos
+            path: /mnt/tank/shares/video
             type: DirectoryOrCreate
 
 ---

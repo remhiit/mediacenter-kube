@@ -4,19 +4,17 @@ metadata:
   name: graylog
 
 ---
-
 apiVersion: v1
 kind: ConfigMap
 metadata:
   name: graylog-envs
   namespace: graylog
 data:
-  GRAYLOG_GID: '100'
-  GRAYLOG_UID: '1009'
-  TZ: 'Europe/Paris'
+  GRAYLOG_GID: "100"
+  GRAYLOG_UID: "1009"
+  TZ: "Europe/Paris"
 
 ---
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -84,11 +82,10 @@ spec:
         - name: tv-volume
           hostPath:
             # Ensure the file directory is created.
-            path: /mnt/tank/shares/videos/Séries
+            path: /mnt/tank/shares/video/show
             type: DirectoryOrCreate
 
 ---
-
 apiVersion: v1
 kind: Service
 metadata:
@@ -107,7 +104,6 @@ spec:
     app.kubernetes.io/name: graylog
 
 ---
-
 apiVersion: v1
 kind: Endpoints
 metadata:
