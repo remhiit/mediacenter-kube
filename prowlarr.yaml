@@ -39,7 +39,7 @@ spec:
             dnsPolicy: ClusterFirstWithHostNet
             containers:
                 - name: prowlarr-app
-                  image: linuxserver/prowlarr:1.9.4.4039-ls38
+                  image: linuxserver/prowlarr:latest
                   imagePullPolicy: Always
                   livenessProbe:
                       httpGet:

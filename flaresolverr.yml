@@ -37,7 +37,7 @@ spec:
       dnsPolicy: ClusterFirstWithHostNet
       containers:
         - name: flaresolverr-app
-          image: ghcr.io/flaresolverr/flaresolverr:v3.3.7
+          image: ghcr.io/flaresolverr/flaresolverr:latest
           imagePullPolicy: Always
           livenessProbe:
             httpGet:

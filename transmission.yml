@@ -39,7 +39,7 @@ spec:
       dnsPolicy: ClusterFirstWithHostNet
       containers:
         - name: transmission-app
-          image: linuxserver/transmission:version-3.00-r5
+          image: linuxserver/transmission:latest
           imagePullPolicy: Always
           livenessProbe:
             httpGet:

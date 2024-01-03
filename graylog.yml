@@ -37,7 +37,7 @@ spec:
       dnsPolicy: ClusterFirstWithHostNet
       containers:
         - name: graylog-app
-          image: graylog/graylog:4.0
+          image: graylog/graylog:latest
           imagePullPolicy: Always
           livenessProbe:
             httpGet:
