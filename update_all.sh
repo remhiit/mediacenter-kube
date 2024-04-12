@@ -1,0 +1,9 @@
+k3s kubectl rollout restart  --namespace=plex           deployment/plex-app
+k3s kubectl rollout restart  --namespace=tautulli       deployment/tautulli-app
+k3s kubectl rollout restart  --namespace=transmission   deployment/transmission-app
+k3s kubectl rollout restart  --namespace=prowlarr       deployment/prowlarr-app
+k3s kubectl rollout restart  --namespace=radarr         deployment/radarr-app
+k3s kubectl rollout restart  --namespace=sonarr         deployment/sonarr-app
+k3s kubectl rollout restart  --namespace=flaresolverr   deployment/flaresolverr-app
+k3s kubectl rollout restart  --namespace=overseerr      deployment/overseerr-app
+k3s kubectl rollout restart  --namespace=homarr         deployment/homarr-app
